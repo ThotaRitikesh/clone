@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    height: 100px;
+}
+#header ol{
+    display: flex;
+    list-style: none;
+
+}
+#header li{
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 10px;
+    font-weight: 500;
+}
+#header a{
+    text-decoration: none;
+    color: black;
+}
+#rays{
+    color: rgb(85, 85, 85);
+    opacity: 0.4;
+}
+#rays:hover{
+    color: black;
+    opacity: 1;
+}
+#body {
+    background-image: url("./img/5.2.png");
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+#body1{
+    position: relative;
+    top: 110px;
+    left: 30px;
+    padding: 25px;
+}
+#body1 h1{
+    font-size: 50px;
+    font-weight:lighter;
+    color: black;
+    
+}
+.span{
+    background-color:rgb(255, 255, 255,.7);
+}
+#container{
+    width: 1000px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+#container li{
+    margin-top: 30px;
+}
+#post{
+    margin-top: 20px;
+}
+#post a{
+    text-decoration: none;
+    color: gray;
+}
+#body12{
+    /* margin-top:100px; */
+    margin-bottom: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+#body12 p{
+    color: white;
+}
+.bg1{
+    background-color: white;
+    border-radius: 100%;
+    height: 16px;
+    width: 18px;
+    padding: 5px;
+    padding-left: 8px;
+}
+/* #icon:hover{
+    opacity: 0.5;
+} */
+#body12 a{
+    text-decoration: none;
+    color: black;
+}
+.ho:hover{
+    opacity: .5;
+}
+.bg2{
+    background-color: white;
+    border-radius: 100%;
+    height: 16px;
+    width: 18px;
+    padding: 8px;
+}
+#bar{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(244, 243, 243);
+    align-content: center;
+    align-items: center;
+    color: gray;
+}
